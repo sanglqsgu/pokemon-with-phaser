@@ -8,8 +8,8 @@ Project Setup:
   ✔ add jsconfig to get phaser 3 types and intellisense @done(26-06-17 13:57)
 
 Game Project Assets:
-  ☐ download game assets and add to project
-  ☐ show links to where assets can be found
+  ✔ download game assets and add to project @done(26-06-17 14:42)
+  ✔ show links to where assets can be found @done(26-06-17 14:42)
 
 Battle System:
   ☐ load game assets
