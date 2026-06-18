@@ -1,18 +1,18 @@
-export const BattleBackgrounds_assets_keys = Object.freeze({
+export const BATTLE_BACKGROUND_ASSETS_KEYS = Object.freeze({
     FOREST: 'FOREST'
 })
 
-export const Monsters_assets_keys = Object.freeze({
+export const MONSTERS_ASSETS_KEYS = Object.freeze({
     IGUANIGNITE: 'IGUANIGNITE',
     CARNODUSK: 'CARNODUSK',
 })
 
-export const Battle_assets_keys = Object.freeze({
-    health: 'health',
+export const BATTLE_ASSETS_KEYS = Object.freeze({
+    HEALTH_BAR_BACKGROUND: 'HEALTH_BAR_BACKGROUND',
 })
 
-export const Health_assets_keys = Object.freeze({
-    left: 'left',
-    right: 'right',
-    middle: 'middle',
+export const HEALTH_ASSETS_KEYS = Object.freeze({
+    LEFT_CAP: 'LEFT_CAP',
+    RIGHT_CAP: 'RIGHT_CAP',
+    MIDDLE: 'MIDDLE',
 })
