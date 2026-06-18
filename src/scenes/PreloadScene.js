@@ -35,9 +35,9 @@ export class PreloadScene extends Phaser.Scene {
     create() {
         console.log("create");
         console.log(this.textures.get('background'));
-        this.add.image(0, 0, BATTLE_BACKGROUND_ASSETS_KEYS.FOREST).setOrigin(0, 0);
+        this.add.image(0, 0, BATTLE_BACKGROUND_ASSETS_KEYS.FOREST).setOrigin(0);
         // this.add.image(0, 0, BATTLE_ASSETS_KEYS.HEALTH_BAR_BACKGROUND).setOrigin(0, 0);
-        // this.add.image(0, 0, MONSTERS_ASSETS_KEYS.IGUANIGNITE).setOrigin(0, 0);
+        // this.add.image(512, 0, MONSTERS_ASSETS_KEYS.IGUANIGNITE).setOrigin(0, 0);
         // this.add.image(0, 0, MONSTERS_ASSETS_KEYS.CARNODUSK).setOrigin(0, 0);
         // this.add.image(0, 0, HEALTH_ASSETS_KEYS.LEFT_CAP).setOrigin(0, 0);
         // this.add.image(0, 0, HEALTH_ASSETS_KEYS.RIGHT_CAP).setOrigin(0, 0);
